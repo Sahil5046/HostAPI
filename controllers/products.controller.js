@@ -8,7 +8,7 @@ const getAllProducts = async (req, res) => {
     }
 
     if (name) {
-        queryObject.name = {$regex: name, $options: 'i' };
+        queryObject.name = { $regex: name, $options: 'i' };
     }
 
     if (featured) {
@@ -18,12 +18,12 @@ const getAllProducts = async (req, res) => {
     let apiData = Product.find(queryObject);
 
 
-    if(sort){
+    if (sort) {
         let sortFix = sort.split(',').join(' ');
         apiData = apiData.sort(sortFix);
     }
 
-    if(select){
+    if (select) {
         let selectFix = select.split(',').join(' ');
         apiData = apiData.select(selectFix);
     }
@@ -37,7 +37,7 @@ const getAllProducts = async (req, res) => {
 
     const Products = await apiData;
     console.log(Products);
-    
+
     res.status(200).json({ Products, nbHits: Products.length });
 }
 
