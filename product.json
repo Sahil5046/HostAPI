@@ -1,0 +1,122 @@
+[
+    {
+        "name": "iPhone 13",
+        "price": 999,
+        "featured": true,
+        "company": "Apple"
+    },
+    {
+        "name": "Pixel 6",
+        "price": 799,
+        "featured": false,
+        "company": "Google"
+    },
+    {
+        "name": "Surface Pro 7",
+        "price": 1200,
+        "featured": true,
+        "company": "Microsoft"
+    },
+    {
+        "name": "XPS 13",
+        "price": 1500,
+        "featured": false,
+        "company": "dell"
+    },
+    {
+        "name": "Redmi Note 10",
+        "price": 250,
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "MacBook Air",
+        "price": 999,
+        "featured": false,
+        "company": "Apple"
+    },
+    {
+        "name": "Pixelbook Go",
+        "price": 650,
+        "featured": true,
+        "company": "Google"
+    },
+    {
+        "name": "Surface Laptop 3",
+        "price": 1000,
+        "featured": false,
+        "company": "Microsoft"
+    },
+    {
+        "name": "Inspiron 15",
+        "price": 800,
+        "featured": true,
+        "company": "dell"
+    },
+    {
+        "name": "Mi 11",
+        "price": 699,
+        "featured": false,
+        "company": "mi"
+    },
+    {
+        "name": "iPad Pro",
+        "price": 1100,
+        "featured": true,
+        "company": "Apple"
+    },
+    {
+        "name": "Nest Hub",
+        "price": 130,
+        "featured": false,
+        "company": "Google"
+    },
+    {
+        "name": "Surface Go 2",
+        "price": 550,
+        "featured": true,
+        "company": "Microsoft"
+    },
+    {
+        "name": "Alienware m15",
+        "price": 2000,
+        "featured": false,
+        "company": "dell"
+    },
+    {
+        "name": "Mi Band 6",
+        "price": 50,
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Apple Watch",
+        "price": 399,
+        "featured": false,
+        "company": "Apple"
+    },
+    {
+        "name": "Google Home",
+        "price": 99,
+        "featured": true,
+        "company": "Google"
+    },
+    {
+        "name": "Xbox Series X",
+        "price": 500,
+        "featured": false,
+        "company": "Microsoft"
+    },
+    {
+        "name": "Dell G5",
+        "price": 1100,
+        "featured": true,
+        "company": "dell"
+    },
+    {
+        "name": "Mi TV 4X",
+        "price": 450,
+        "featured": false,
+        "company": "mi"
+    }
+]
